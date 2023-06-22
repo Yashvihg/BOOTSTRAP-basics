@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+    />
+    <style>
+      body {
+        height: 100vh;
+      }
+      .btn {
+        background: #a435f0;
+        border-color: #a435f0;
+      }
+
+      .btn:hover {
+        background: #8f00ef;
+        border-color: #8f00ef;
+      }
+      .textbelow {
+        font-size: 15px;
+      }
+      a {
+        color: #a435f0;
+      }
+    </style>
+  </head>
+  <!-- <body class="container"> -->
+  <body>
+    <!-- <div class="row h-100 justify-content-center align-items-center"> -->
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-4 m-5">
+        <form>
+          <!-- <div class="form-header"></div> -->
+          <label class="form-header mb-3 m-2 fw-semibold"
+            >Sign up and start learning</label
+          >
+          <!-- <label for="fname"></label> -->
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Full Name"
+            class="form-control form-control-lg border border-2 border-dark rounded-0 m-2"
+            width="100%"
+          />
+          <!-- <label for="email"></label> -->
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="form-control form-control-lg border border-2 border-dark rounded-0 m-2"
+            width="100%"
+          />
+          <!-- <label for="pwd"></label> -->
+          <input
+            type="password"
+            id="pwd"
+            name="password"
+            placeholder="Password"
+            class="form-control form-control-lg border border-2 border-dark rounded-0 m-2"
+            width="100%"
+          />
+          <button
+            type="submit"
+            class="btn btn-primary btn-lg rounded-0 m-2 w-100"
+          >
+            Sign Up
+          </button>
+        </form>
+        <span class="textbelow fw-normal m-2"
+          >By signing up, you agree to our
+          <span class="text-decoration-underline">Terms of use</span> and
+          <span class="text-decoration-underline">Privacy Policy.</span></span
+        >
+        <!-- <hr width="2px"> -->
+        <hr />
+        <div class="d-flex justify-content-center">
+          <span class="LoginOption fw-normal"
+            >Already have an account?
+            <span><a href="www.google.com">Log In</a></span></span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
